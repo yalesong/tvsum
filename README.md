@@ -4,17 +4,12 @@ Title-based Video Summarization (TVSum) dataset used in our CVPR 2015 paper **"T
 ![alt text](https://github.com/yalesong/tvsum50/blob/master/images/tvsum50.png "TVSum50 Dataset")
 
 ## Overview
-Yahoo! Title-based Video Summarization dataset (TVSum50) serves as a benchmark to validate video summarization techniques. It contains 50 videos of various genres (e.g., news, how-to, documentary, vlog, egocentric) and 1,000 annotations of shot-level importance scores obtained via crowdsourcing (20 per video). The video and annotation data permits an automatic evaluation of various video summarization techniques, without having to conduct (expensive) user study.
+Title-based Video Summarization (TVSum) dataset serves as a benchmark to validate video summarization techniques. It contains 50 videos of various genres (e.g., news, how-to, documentary, vlog, egocentric) and 1,000 annotations of shot-level importance scores obtained via crowdsourcing (20 per video). The video and annotation data permits an automatic evaluation of various video summarization techniques, without having to conduct (expensive) user study.
 
 The videos, collected from YouTube, comes with the [Creative Commons CC-BY (v3.0) license](https://support.google.com/youtube/answer/2797468?hl=en). We release both the video files and their URLs. The shot-level importance scores are annotated via Amazon Mechanical Turk -- each video was annotated by 20 crowd-workers. The dataset has been reviewed to conform to Yahoo's data protection standards, including strict controls on privacy.
 
-## Tasks
+## Task
 The primary task of the dataset is video summarization, where the goal is to create a short, meaningful summary of a given video. The summary may contain a few shots that capture the highlights of a video and are non-redundant. Although the task is inherently subjective, we carefully curated the dataset and annotated it so that the evaluation is done in an objective way. (We have a reasonably high degree of inter-rater reliability, with the Cronbach’s alpha of 0.81.)
-
-While the main task is video summarization, our dataset can be used to evaluate other related problems, such as:
-* Automatically generate a thumbnail image from video
-* Video2GIF: Automatically generate animated GIFs from video
-* Video highlight detection
 
 ## Evaluations
 Let’s say we’ve generated a 15 second-long summary of video “[Will a cat eat dog food?](https://www.youtube.com/watch?v=-esJrBWj2d8)”, shown below:
