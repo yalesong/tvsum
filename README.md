@@ -1,5 +1,5 @@
 # TVSum Dataset
-Title-based Video Summarization (TVSum) dataset used in our CVPR 2015 paper **"Tvsum: Summarizing web videos using titles."**
+Title-based Video Summarization (TVSum) dataset used in our CVPR 2015 paper **"TVSum: Summarizing web videos using titles."**
 
 ![alt text](https://github.com/yalesong/tvsum50/blob/master/images/tvsum50.png "TVSum50 Dataset")
 
@@ -39,6 +39,6 @@ _Note for the participants of the [2016 LDV Vision Summit - Entrepreneurial Comp
 
 
 ## Reference
-Song, Yale, Jordi Vallmitjana, Amanda Stent, and Alejandro Jaimes. **"Tvsum: Summarizing web videos using titles."** In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 5179-5187. 2015.
+Song, Yale, Jordi Vallmitjana, Amanda Stent, and Alejandro Jaimes. **"TVSum: Summarizing web videos using titles."** In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 5179-5187. 2015.
 
 
