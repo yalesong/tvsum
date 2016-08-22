@@ -1,5 +1,5 @@
 # TVSum Dataset
-Title-based Video Summarization (TVSum) dataset used in our CVPR 2016 paper **"Tvsum: Summarizing web videos using titles."**
+Title-based Video Summarization (TVSum) dataset used in our CVPR 2015 paper **"Tvsum: Summarizing web videos using titles."**
 
 ![alt text](https://github.com/yalesong/tvsum50/blob/master/images/tvsum50.png "TVSum50 Dataset")
 
