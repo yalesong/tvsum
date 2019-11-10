@@ -3,6 +3,7 @@ Title-based Video Summarization (TVSum) dataset used in our CVPR 2015 paper **"T
 
 ![alt text](https://github.com/yalesong/tvsum50/blob/master/images/tvsum50.png "TVSum50 Dataset")
 
+
 ## Overview
 Title-based Video Summarization (TVSum) dataset serves as a benchmark to validate video summarization techniques. It contains 50 videos of various genres (e.g., news, how-to, documentary, vlog, egocentric) and 1,000 annotations of shot-level importance scores obtained via crowdsourcing (20 per video). The video and annotation data permits an automatic evaluation of various video summarization techniques, without having to conduct (expensive) user study.
 
@@ -27,15 +28,17 @@ From the shot-level importance scores, we can formulate video summarization as t
 If our summary is similar to the gold standard, it means our summary is similar to how the 20 annotators would’ve summarized the video. We can represent our summary as a vector of size T, whose elements are 1 if it is in the summary. We are now ready to compare how good the produced summary is by comparing the two vectors of same size, using various metrics (e.g., F1 score).
 
 ## How to get the data
-The dataset is available as part of the [Yahoo! WebScope program](https://webscope.sandbox.yahoo.com/#datasets). Follow the steps below to download the dataset:
+_Update on Nov 10, 2019: The dataset is no longer available on Yahoo! Webscope. Please download the dataset directly from [http://people.csail.mit.edu/yalesong/tvsum](http://people.csail.mit.edu/yalesong/tvsum)._
 
-1. Visit: [I4 - Title-based Video Summarization dataset](https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=72), version 1.1 (644M)
-2. Sign in to your Yahoo account.
-3. Click “Select this Dataset” - “View Cart”.
-4. Fill out “Research Purpose” section.
-5. Click “Continue”.
+~The dataset is available as part of the [Yahoo! WebScope program](https://webscope.sandbox.yahoo.com/#datasets). Follow the steps below to download the dataset:~
 
-_Note for the participants of the [2016 LDV Vision Summit - Entrepreneurial Computer Vision Challenges (ECVC)](http://www.ldv.co/visionsummit/2016/competitions): We’ve arranged a special approval process for the ECVC participants so you do not need an academic email address to get an approval to download. Please mention in the form (“Research Purpose” section) that you are a participant of the challenge._
+1. ~Visit: [I4 - Title-based Video Summarization dataset](https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=72), version 1.1 (644M)~
+2. ~Sign in to your Yahoo account.~
+3. ~Click “Select this Dataset” - “View Cart”.~
+4. ~Fill out “Research Purpose” section.~
+5. ~Click “Continue”.~
+
+~_Note for the participants of the [2016 LDV Vision Summit - Entrepreneurial Computer Vision Challenges (ECVC)](http://www.ldv.co/visionsummit/2016/competitions): We’ve arranged a special approval process for the ECVC participants so you do not need an academic email address to get an approval to download. Please mention in the form (“Research Purpose” section) that you are a participant of the challenge._~
 
 
 ## Reference
